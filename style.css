@@ -1,1 +1,57 @@
 /*  Add your styling here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Div CupCake */
+.cupCake {
+   background-image: url("https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 400px;
+   padding-top: 10%;
+   padding-bottom: 10%;
+   padding: 50px;
+   position: relative;
+
+}
+
+.cupCake h2 {
+    font-family:'Fredericka the Great';
+    text-align: right;
+    color: rgb(84, 186, 185);
+    font-size: 50px;
+    position: absolute;
+    bottom:5px;
+    right:10px;
+}
+
+/* seccion lista */
+
+.lista{
+    text-align-last: center;
+    color: rgb(84, 186, 185);
+    
+
+}
+
+/* div welcome */
+.welcome{
+    background-color: rgb(251, 248, 241);
+    width: 100%;
+    height: 400px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.welcome h2 ,p{
+    color:  rgb(84, 186, 185);
+
+}
+
+
