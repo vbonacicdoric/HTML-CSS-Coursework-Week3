@@ -5,70 +5,59 @@
     box-sizing: border-box;
 }
 
-.nav{
-    background-color:  rgb(247, 236, 222);
-    width: auto;
+.header-banner{
     height: 150px;
-    display: block;
- 
-}
-.nav h2 {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 30px;
-    font-weight: 500;
-    color: rgb(243, 139, 160);
-    text-align: right;
-}
-
-/* lista */
-.contenedor-lista {
-    background-color: rgb(247, 236, 222);
-    width: 70%;
-    height: 100px;
-    margin-top: 30px;
-    padding: 10px;
-    box-sizing: border-box;
-    display: block;
-
-}
-
-.contenedor-lista li{
-    color: rgb(243, 139, 160);
-    font-size: 17px;
-    line-height: 3.666667;
-    position: relative;
-    z-index: inline-block;
-    padding: 0.8;
-    width: auto;
-    height: 44px;
-    opacity: 0.8;
-    white-space: nowrap;
-    letter-spacing: -0.01em;
+    display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    background-color: lavenderblush;
+
+}
+ 
+.header-banner img {
+    width: 40%;
+    object-fit: cover;
+}
+
+.header-banner h2 {
+    width: 40%;
+}
+
+nav.navbar.navbar-expand-md.navbar-light.bg-light.container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.welcome img{
+    width: 100%;
+
+
+}
+
+@media screen and (min-width:540px){
+    nav.navbar.navbar-expand-md.navbar-light.bg-light.container {
+        position: static;
+
+    }
     
 }
+/* style for laptops */
 
-.foto-pastel{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 300px;
-    width: 30%;
+@media screen and (min-width:900px) {
+    .welcome{
+        display: flex;
+        justify-content:space-between;
+        flex-direction: row-reverse;
+    }
+    .welcome img{
+        width: 45%;
+
+    }
+    .welcome div{
+        width: 45%;
+    }
 }
-
-.welcome {
-    background-color: rgb(247, 236, 222);
-    width: 30%;
-    height: 300px;
-    display: inline-flex;
-
-}
-
-
-
-
-
-
-
 
 
 
