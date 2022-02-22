@@ -31,9 +31,31 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light.container {
 }
 .welcome img{
     width: 100%;
+}
+.container-flex{
+display: flex;
+background-color: white;
+flex-wrap: wrap;
+padding-top: 10px;
+padding-bottom: 10px;
+justify-content: space-between;
 
 
 }
+
+.container-flex img{
+    width: 60px;
+    height: 60px;
+    justify-content: space-between;
+    border-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+    box-sizing: border-box;
+
+}
+
+/* media queris */
 
 @media screen and (min-width:540px){
     nav.navbar.navbar-expand-md.navbar-light.bg-light.container {
