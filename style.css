@@ -37,8 +37,22 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light.container {
 .welcome{
     margin-top: 40px;
     padding-bottom: 20px;
-
+    
 }
+
+.welcome h1{
+    padding-top: 20%;
+}
+
+.welcome p{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 3px;
+    padding-bottom: 40px;
+    
+}
+  
 
 
 .container-flex{
